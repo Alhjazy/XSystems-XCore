@@ -1,7 +1,7 @@
 {
     "name": "xsystems/xcore",
     "description": "The description here !",
-    "type": "project",
+    "type": "library",
     "require": {
         "illuminate/support": "^5.7",
         "php": "^7.1"
