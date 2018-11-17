@@ -1,5 +1,5 @@
 <?php
-namespace XSystems\XCore;
+namespace XSystems\XCore\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
