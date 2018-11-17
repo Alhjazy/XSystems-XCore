@@ -1,0 +1,32 @@
+{
+    "name": "xsystems/xcms",
+    "description": "The description here !",
+    "type": "project",
+    "require": {
+        "illuminate/support": "^5.7",
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "autoload":{
+        "psr-4":{
+            "XSystems\\XCore\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "XSystems\\XCore\\Providers\\XCoreServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmad Hjazy",
+            "email": "mmmedo73@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
